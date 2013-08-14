@@ -3,6 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@color/white"
+    android:gravity="top"
     android:orientation="vertical" >
 
     <ImageView
@@ -11,31 +12,51 @@
         android:layout_height="116dp"
         android:background="@color/white"
         android:src="@drawable/logoheng" />
+    
+
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="fill_parent"
-        android:layout_height="62dp"
-        android:layout_alignRight="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:layout_below="@+id/imageView1"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:text="蓝牙保温箱 " />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="289dp"
-        android:layout_height="64dp"
-        android:layout_below="@+id/button2"
-        android:layout_marginTop="52dp"
-        android:text=" 历史数据  " />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="fill_parent"
-        android:layout_height="78dp"
+        android:layout_height="60dp"
         android:layout_alignRight="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
         android:layout_below="@+id/button1"
-        android:layout_marginTop="67dp"
+        android:layout_marginTop="30dp"
         android:text=" GPRS保温箱 " />
+    
+     <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text=" 记录仪操作  " />
+    
+    
+    
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text=" 历史数据  " />
+
+
 
 </RelativeLayout>

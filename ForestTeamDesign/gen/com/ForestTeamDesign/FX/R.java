@@ -51,8 +51,9 @@ public final class R {
         public static final int button1=0x7f090001;
         public static final int button2=0x7f090002;
         public static final int button3=0x7f090003;
+        public static final int button4=0x7f090016;
         public static final int button_scan=0x7f09000a;
-        public static final int discoverable=0x7f090018;
+        public static final int discoverable=0x7f090019;
         public static final int imageBtn1=0x7f09000c;
         public static final int imageBtn2=0x7f09000f;
         public static final int imageBtn3=0x7f090012;
@@ -61,7 +62,7 @@ public final class R {
         public static final int marquee_effect=0x7f09000b;
         public static final int new_devices=0x7f090009;
         public static final int paired_devices=0x7f090007;
-        public static final int scan=0x7f090017;
+        public static final int scan=0x7f090018;
         public static final int title_left_text=0x7f090004;
         public static final int title_new_devices=0x7f090008;
         public static final int title_paired_devices=0x7f090006;
@@ -72,7 +73,7 @@ public final class R {
         public static final int tv4=0x7f090011;
         public static final int tv5=0x7f090013;
         public static final int tv6=0x7f090014;
-        public static final int welcome_image_view=0x7f090016;
+        public static final int welcome_image_view=0x7f090017;
     }
     public static final class layout {
         public static final int btws=0x7f030000;
