@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="116dp"
+        android:background="@color/white"
+        android:src="@drawable/logoheng" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="62dp"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="20dp"
+        android:text="蓝牙保温箱 " />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="289dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="52dp"
+        android:text=" 历史数据  " />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="78dp"
+        android:layout_alignRight="@+id/button3"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="67dp"
+        android:text=" GPRS保温箱 " />
+
+</RelativeLayout>

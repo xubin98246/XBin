@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- <string name="app_name">Bluetooth Chat</string> -->
+    <string name="app_name">温湿度记录软件</string>
+
+    <!--  BluetoothChat -->
+    <string name="not_connected">您没有连接任何设备，请先连接一个设备</string>
+    <string name="bt_not_enabled_leaving">蓝牙不可用</string>
+    <string name="title_connecting">连接中...</string>
+    <string name="title_connected_to">已连接: </string>
+    <string name="title_not_connected">没有连接到任何设备</string>
+    
+    <string name="select">请点击相应图标选择您想要获取的信息</string>
+    <string name="point_red">红灯</string>
+    <string name="point_yellow">黄灯</string>
+    <string name="point_green">绿灯</string>
+    <string name="point_all">全部灯</string>
+    <string name="about">空气质量监测控制器——by Lab410 zzz</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">扫描设备中...</string>
+    <string name="select_device">请您选择一个设备来建立连接</string>
+    <string name="none_paired">没有已经配对的设备</string>
+    <string name="none_found">没有发现任何设备</string>
+    <string name="title_paired_devices">已经配对的设备</string>
+    <string name="title_other_devices">其他可用的设备</string>
+    <string name="button_scan">扫描设备</string>
+
+    <!-- Options Menu -->
+    <string name="connect">连接设备</string>
+    <string name="discoverable">使蓝牙可见</string>
+    <string name="temperture">当前温湿度</string>
+    <string name="temp">当前温度:</string>
+    <string name="humidity">当前湿度:</string>
+    <string name="pm">空气颗粒物状况</string>
+    <string name="valueofpm">PM2.5值:</string>
+    <string name="stateofpm">PM2.5状况:</string>
+    <string name="methanal">空气甲醛浓度状况</string>
+    <string name="valueofmethanal">甲醛浓度值:</string>
+    <string name="stateofmethanal">甲醛浓度值情况:</string>
+	
+
+  
+	<string-array name = "test_array">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+
+    <!-- Used in View/Spinner1.java --> 
+    <string-array name="colors"> 
+        <item>red</item> 
+        <item>orange</item> 
+        <item>yellow</item> 
+        <item>green</item> 
+        <item>blue</item> 
+        <item>violet</item> 
+    </string-array> 
+</resources>
